@@ -1,0 +1,90 @@
+body{
+
+background-image: linear-gradient(to bottom, red, black);
+min-height: 100vh;
+}
+img{
+height: 100%;
+width: 100%;
+}
+
+main{
+flex: 1;
+}
+
+footer{
+text-align: center;
+color: white;
+
+}
+#por{
+color: lime;
+font-size: 50px;
+}
+p{
+color: white;
+}
+#zdj{
+height: 20%;
+width: 20%;
+}
+
+#zdj2{
+height: 50%;
+width: 50%;
+}
+#zdj3{
+height: 30%;
+width: 30%;
+}
+
+
+h2{
+color: white;
+}
+a{
+color: lime;
+background-color: black;
+}
+a:hover{
+color: white;
+}
+.komp{
+background-color: black;
+color: lime;
+}
+hr{
+height: 1px;
+}
+#zdj2{
+width: 20%;
+height: 40%;
+}
+h3{
+color: lime;
+}
+#filmiki{
+font-size: 75px;
+}
+table, tr, td{
+width: 100%;
+table-layout: fixed;
+border-collapse: collapse;
+border: 3px, solid, black;
+text-align: center;
+}
+.zdj2{
+height: 45%;
+width: 45%;
+}
+#CS{
+color: white;
+font-size: 40px;
+}
+div{
+color: white;
+font-size: 45px;
+}
+#granaty{
+font-size: 27px;
+}
