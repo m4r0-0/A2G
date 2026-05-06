@@ -1,8 +1,8 @@
 body{
-
-background-image: linear-gradient(to bottom, red, black);
+background-image: linear-gradient(to bottom, DarkRed, black);
 min-height: 100vh;
 }
+
 img{
 height: 100%;
 width: 100%;
@@ -17,10 +17,7 @@ text-align: center;
 color: white;
 
 }
-#por{
-color: lime;
-font-size: 50px;
-}
+
 p{
 color: white;
 }
@@ -33,39 +30,44 @@ width: 20%;
 height: 50%;
 width: 50%;
 }
+
 #zdj3{
 height: 30%;
 width: 30%;
 }
 
-
 h2{
 color: white;
 }
+
 a{
 color: lime;
 background-color: black;
 }
+
 a:hover{
 color: white;
 }
+
 .komp{
 background-color: black;
 color: lime;
 }
-hr{
-height: 1px;
-}
+
 #zdj2{
 width: 20%;
 height: 40%;
 }
+
 h3{
 color: lime;
 }
+
 #filmiki{
+color: white;
 font-size: 75px;
 }
+
 table, tr, td{
 width: 100%;
 table-layout: fixed;
@@ -73,18 +75,38 @@ border-collapse: collapse;
 border: 3px, solid, black;
 text-align: center;
 }
+
 .zdj2{
 height: 45%;
 width: 45%;
 }
+
 #CS{
 color: white;
 font-size: 40px;
 }
+
 div{
 color: white;
 font-size: 45px;
 }
+
 #granaty{
 font-size: 27px;
+}
+
+#info{
+background-color: black;
+color: yellow;
+font-weight: bold;
+font-size: 100px;
+}
+
+#warn{
+text-ailgn: center;
+}
+
+.yellow{
+height: 135px;
+width: 2000px;
 }
