@@ -142,8 +142,18 @@ width: 700px;
 border-collapse: collapse;
 border: 2px, solid, white;
 text-align: center;
+font-weight: bold;
+font-size: 20px;
 }
 
 #ob{
 background-color: DarkRed;
+}
+
+#r{
+background-color: grey;
+}
+
+#g{
+background-color: grey;
 }
