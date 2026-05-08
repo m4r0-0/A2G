@@ -1,0 +1,67 @@
+body{
+background-image: url("komputery.jpg");
+background-size: cover;
+background-position: center;
+text-align: center;
+color: white;
+}
+
+
+.pc{
+width: 25%;
+height: 20%;
+}
+
+table, tr, td{
+text-align: center;
+table-layout: fixed;
+margin: auto;
+width: 63%;
+font-size: 20px;
+border: 3px, solid, #0047AB;
+border-collapse: collapse;
+}
+
+h1{
+font-size: 65px;
+font-family: Helvetica;
+color: white;
+text-align: center;
+}
+
+.logo{
+height: 20%;
+width: 20%;
+}
+
+.first{
+background-color: #0047AB;
+}
+
+#linki{
+background-color: #0047AB;
+text-align: center;
+}
+
+h2{
+color: white;
+text-align: center;
+font-size: 45px;
+background-color: black;
+}
+
+h3{
+color: LightBlue;
+text-align: center;
+font-size: 35px;
+}
+
+a{
+font-size: 25px;
+color: LightBlue;
+text-decoration: none;
+}
+
+a:hover{
+color: lime;
+}
