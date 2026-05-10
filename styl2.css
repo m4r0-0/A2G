@@ -1,0 +1,89 @@
+body{
+background-image: linear-gradient(to bottom, #36454F, black);
+min-height: 100vh;
+}
+
+#logo{
+width: 100%;
+}
+
+table, tr, td{
+table-layout: fixed;
+width: 100%;
+border-collapse: collapse;
+color: white;
+text-align: center;
+}
+
+#zdj{
+height: 33%;
+width: 33%;
+}
+
+#zdj2{
+height: 33%;
+width: 33%;
+}
+
+#zdj3{
+height: 35%;
+width: 50%;
+}
+
+#filmiki{
+color: white;
+font-size: 75px;
+}
+
+div{
+color: white;
+font-size: 45px;
+}
+
+#powrot{
+background-color: red;
+color: white;
+border-radius: 5px;
+padding: 10px;
+}
+
+#powrot:hover{
+background-color: lime;
+text-align: center;
+color: DarkRed;
+}
+
+a{
+background-color: black;
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
+a:hover{
+background-color: lime;
+color: black;
+font-weight: bold;
+font-size: 21px;
+}
+
+.b{
+color: lime;
+}
+
+.linki{
+padding: 10px;
+border-radius: 50px;
+}
+
+footer{
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+
+h3{
+color: lime;
+font-size: 30px;
+}
