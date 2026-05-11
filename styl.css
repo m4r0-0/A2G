@@ -26,10 +26,13 @@ color: white;
 }
 
 a{
-color: white;
-background-color: black;
+color: red;
+background-color: lightgrey;
 font-size: 25px;
 font-weight: bold;
+border-radius: 35px;
+padding: 7px;
+text-decoration: none;
 }
 
 a:hover{
