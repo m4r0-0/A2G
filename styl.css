@@ -1,8 +1,8 @@
 body{
 background-image: linear-gradient(to bottom, #36454F, black);
 min-height: 100vh;
+text-align: center;
 }
-
 
 main{
 flex: 1;
@@ -29,6 +29,7 @@ font-weight: bold;
 border-radius: 35px;
 padding: 7px;
 text-decoration: none;
+text-align: center;
 }
 
 a:hover{
@@ -36,24 +37,9 @@ color: lime;
 font-size: 30px;
 }
 
-.komp{
-background-color: black;
-color: lime;
-}
-
 h3{
 font-size: 40px;
 color: lime;
-}
-
-#filmiki{
-color: white;
-font-size: 75px;
-}
-
-.zdj2{
-height: 45%;
-width: 45%;
 }
 
 div{
@@ -61,28 +47,12 @@ color: white;
 font-size: 45px;
 }
 
-
 #linki{
 width: 100%;
 table-layout: fixed;
 border-collapse: collapse;
-border: 0px, solid, black;
 text-align: center;
-}
-
-#powrot{
-background-color: red;
-color: white;
-}
-
-#powrot:hover{
-background-color: lime;
-text-align: center;
-color: DarkRed;
-}
-
-h1{
-color: white;
+margin: auto;
 }
 
 #sklad{
@@ -91,8 +61,60 @@ border-collapse: collapse;
 border: 2px;
 color: white;
 height: 500px;
-width: 700px;
+width: 50%;
 }
+
+.layout{
+display: flex;
+gap: 300px;
+align-items: flex-start;
+}
+
+.trofy{
+table-layout: fixed;
+border-collapse: collapse;
+border: 0px;
+color: white;
+height: 450px;
+width: 50%;
+}
+
+.trof{
+padding: 25px;
+}
+
+.win{
+color: gold;
+}
+
+.lose{
+color: red;
+}
+
+.sec{
+color: #50C878;
+}
+
+.thrd{
+color: #B87333;
+}
+
+.tur{
+color: lime;
+}
+
+.drab{
+background-color: black;
+color: lime;
+text-decoration: underline;
+}
+
+#head{
+font-size: 65px;
+font-weight: bold;
+background-color: darkred;
+}
+
 .sk{
 border-collapse: collapse;
 border: 2px, solid, white;
@@ -114,11 +136,12 @@ background-color: grey;
 }
 
 iframe{
-
-width: 100%;
-height: 600px;
-border: 0px;
-text-align: center;
+margin: auto;
+display: block;
+justify-content: center;
+width: 700px;
+height: 350px;
+border: none;
 }
 
 img{
@@ -137,4 +160,23 @@ color: white;
 font-weight: bold;
 border-radius: 10px;
 padding: 3px;
+}
+
+h1{
+font-size: 50px;
+color: white;
+}
+
+#tip{
+display: inline-block;
+width: 35%;
+}
+
+#tip:hover{
+color: black;
+background-color: lime;
+}
+
+.wrap{
+text-align: center;
 }
