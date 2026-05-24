@@ -1,11 +1,14 @@
 body{
 background-image: linear-gradient(to bottom, #36454F, black);
 min-height: 100vh;
+margin: auto;
 text-align: center;
 }
 
-main{
-flex: 1;
+#logo{
+width: 105%;
+justify-content: center;
+padding-left: 15px;
 }
 
 footer{
@@ -66,7 +69,7 @@ width: 50%;
 
 .layout{
 display: flex;
-gap: 300px;
+gap: 200px;
 align-items: flex-start;
 }
 
@@ -149,10 +152,6 @@ width: 3%;
 text-align: center; 
 }
 
-#logo{
-height: 100%;
-width: 100%;
-}
 
 .out{
 background-color: DarkRed;
