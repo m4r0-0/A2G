@@ -1,6 +1,7 @@
 body{
 background-image: linear-gradient(to bottom, #36454F, black);
 min-height: 100vh;
+text-align: center;
 }
 
 #logo{
@@ -68,23 +69,6 @@ font-weight: bold;
 font-size: 21px;
 }
 
-.b{
-color: lime;
-}
-
-.linki{
-padding: 10px;
-border-radius: 50px;
-}
-
-footer{
-color: white;
-font-weight: bold;
-font-size: 20px;
-text-align: center;
-}
-
-h3{
-color: lime;
-font-size: 30px;
+video{
+width: 50%;
 }
