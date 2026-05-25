@@ -6,7 +6,6 @@ text-align: center;
 color: white;
 }
 
-
 .pc{
 width: 25%;
 height: 20%;
@@ -63,5 +62,18 @@ text-decoration: none;
 }
 
 a:hover{
+color: lime;
+}
+
+#strg{
+font-size: 30px;
+color: white;
+background-color: #0047AB;
+text-decoration: none;
+border-radius: 40% 10% 40% 10%;
+}
+
+#strg:hover{
+font-size: 31px;
 color: lime;
 }

@@ -2,45 +2,37 @@ body{
 background-image: linear-gradient(to bottom, #36454F, black);
 min-height: 100vh;
 text-align: center;
-}
-
-#h{
-color: white;
-font-weight: bold;
+overflow-x: hidden;
 }
 
 #logo{
 width: 100%;
-}
-
-#powrot{
-background-color: red;
-color: white;
-border-radius: 5px;
-padding: 10px;
-}
-
-#powrot:hover{
-background-color: lime;
-text-align: center;
-color: DarkRed;
+justify-content: center;
+margin: auto;
 }
 
 a{
 background-color: black;
 color: white;
+border-radius: 50% 10% 50% 10%;
 font-weight: bold;
-font-size: 20px;
+font-size: 40px;
 text-decoration: none;
+padding: 15px;
 }
 
 a:hover{
 background-color: lime;
 color: black;
 font-weight: bold;
-font-size: 21px;
+font-size: 41px;
 }
 
 video{
 width: 50%;
+}
+
+h1{
+color: white;
+font-size: 70px;
 }

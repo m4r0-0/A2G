@@ -1,0 +1,23 @@
+body{
+background-image: linear-gradient(to bottom, #36454F, black);
+min-height: 100vh;
+text-align: center;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+width: 100%;
+}
+
+
+#powrot{
+background-color: red;
+color: white;
+border-radius: 5px;
+padding: 10px;
+}
+
+#powrot:hover{
+background-color: lime;
+text-align: center;
+color: DarkRed;
+}
