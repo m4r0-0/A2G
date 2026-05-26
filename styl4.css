@@ -8,12 +8,44 @@ overflow-x: hidden;
 width: 100%;
 }
 
+#logo{
+width: 100%;
+}
+
+#linki{
+width: 100%;
+table-layout: fixed;
+border-collapse: collapse;
+text-align: center;
+margin: auto;
+}
+
+table, tr, td{
+table-layout: fixed;
+border-collapse: collapse;
+color: white;
+width: 100%;
+text-align: center;
+}
+
+#zdj1{
+width: 33%;
+}
+
+#zdj2{
+width: 40%;
+}
+
+#zdj3{
+width: 60%;
+}
 
 #powrot{
 background-color: red;
 color: white;
 border-radius: 5px;
-padding: 10px;
+padding: 15px;
+width: 40%;
 }
 
 #powrot:hover{

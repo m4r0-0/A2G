@@ -1,13 +1,18 @@
 body{
-background-image: linear-gradient(to bottom, #36454F, black);
+background-image: url("tlo.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 min-height: 100vh;
-margin: auto;
 text-align: center;
 overflow-x: hidden;
+background-repeat: no-repeat;
+margin: 0px;
 }
 
 #logo{
-width: 100%;
+width: 63%;
 justify-content: center;
 }
 
@@ -84,6 +89,7 @@ width: 50%;
 
 .trof{
 padding: 25px;
+font-size: 30px
 }
 
 .win{
@@ -113,9 +119,9 @@ text-decoration: underline;
 }
 
 #head{
-font-size: 65px;
+font-size: 60px;
 font-weight: bold;
-background-color: darkred;
+background-color: #5E0B15;
 }
 
 .sk{
@@ -127,7 +133,7 @@ font-size: 20px;
 }
 
 #ob{
-background-color: DarkRed;
+background-color: #5E0B15;
 }
 
 #r{
@@ -154,7 +160,7 @@ text-align: center;
 
 
 .out{
-background-color: DarkRed;
+background-color: #990000;
 color: white;
 font-weight: bold;
 border-radius: 10px;

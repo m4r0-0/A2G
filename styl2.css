@@ -1,12 +1,16 @@
 body{
-background-image: linear-gradient(to bottom, #36454F, black);
+background-image: url("tlo2.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 min-height: 100vh;
 text-align: center;
 overflow-x: hidden;
 }
 
 #logo{
-width: 100%;
+width: 50%;
 justify-content: center;
 margin: auto;
 }
