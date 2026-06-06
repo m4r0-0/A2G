@@ -1,21 +1,31 @@
 body{
-background-image: linear-gradient(to bottom, #36454F, black);
+background-image: url(tło3.png);
 min-height: 100vh;
 text-align: center;
-margin: 0px;
-padding: 0px;
+margin: auto;
 overflow-x: hidden;
-width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #logo{
-width: 100%;
+width: 60%;
+margin-bottom: 150px;
 }
 
 #linki{
-width: 100%;
-table-layout: fixed;
+width: 70%;
 border-collapse: collapse;
+text-align: center;
+}
+
+#header{
+font-size: 100px;
+color: #E50030;
+background-color: black;
+width: 60%;
 text-align: center;
 margin: auto;
 }
@@ -24,12 +34,13 @@ table, tr, td{
 table-layout: fixed;
 border-collapse: collapse;
 color: white;
-width: 100%;
+width: 75%;
 text-align: center;
+margin: auto;
 }
 
 #zdj1{
-width: 33%;
+width: 0%;
 }
 
 #zdj2{
@@ -50,6 +61,66 @@ width: 40%;
 
 #powrot:hover{
 background-color: lime;
-text-align: center;
 color: DarkRed;
+}
+
+#pow{
+background-color: black;
+border-radius: 10% 40% 10% 40%;
+padding: 10px;
+color: white;
+text-decoration: none;
+font-size: 35px;
+}
+
+#pow:hover{
+background-color: lime;
+color: black;
+}
+
+.linki{
+background-color: black;
+border-radius: 40% 20% 40% 20%;
+color: #E50030;
+padding: 15px;
+font-size: 40px;
+text-decoration: none;
+margin: auto;
+}
+
+.linki:hover{
+font-size: 41px;
+color: darkred;
+}
+
+.film{
+font-size: 30px;
+color: black;
+background-color: lime;
+border-radius: 20%;
+text-decoration: none;
+padding: 5px;
+}
+
+.film:hover{
+color: white;
+background-color: black;
+}
+
+footer{
+color: white;
+}
+
+.granaty{
+color: white;
+font-size: 55px;
+}
+
+.G{
+font-size: 85px;
+color: white;
+}
+
+.lin{
+font-size: 40px;
 }
