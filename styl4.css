@@ -131,7 +131,9 @@ width: 45%;
 text-align: center;
 margin: auto;
 font-size: 25px;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 20%;
+padding: 10px;
 }
 
 #pocz{
