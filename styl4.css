@@ -2,12 +2,12 @@ body{
 background-image: url(tło3.png);
 min-height: 100vh;
 text-align: center;
-margin: auto;
 overflow-x: hidden;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+margin: auto;
 }
 
 #logo{
@@ -123,4 +123,29 @@ color: white;
 
 .lin{
 font-size: 40px;
+}
+
+p{
+color: lightblue;
+width: 45%;
+text-align: center;
+margin: auto;
+font-size: 25px;
+background-color: black;
+}
+
+#pocz{
+color: white;
+font-size: 45px;
+}
+
+.rozgrywki{
+color: white;
+}
+.rozgrywki:hover{
+color: red;
+}
+
+#A2G{
+color: #E50030;
 }
