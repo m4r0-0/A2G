@@ -185,3 +185,12 @@ background-color: lime;
 .wrap{
 text-align: center;
 }
+
+.nick{
+background-color: rgba(20, 20, 25, 0.9);
+border-collapse: collapse;
+border: 2px, solid, white;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
