@@ -142,7 +142,7 @@ font-size: 45px;
 }
 
 .rozgrywki{
-color: white;
+color: lightgreen;
 }
 .rozgrywki:hover{
 color: red;
@@ -150,4 +150,43 @@ color: red;
 
 #A2G{
 color: #E50030;
+}
+
+#w{
+color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: pojawienie 1s ease forwards;
+}
+
+@keyframes pojawienie {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#logo{
+animation-delay: 0s;
+}
+#pocz{
+animation-delay: 0.3s;
+}
+#p{
+animation-delay: 0.8s;
+}
+#logo{
+animation-delay: 0.3s;
+}
+#linki{
+animation-delay: 0.3;
+}
+#header{
+animation-delay: 0.3s;
 }
