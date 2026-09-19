@@ -7,211 +7,171 @@ background-size: cover;
 min-height: 100vh;
 text-align: center;
 overflow-x: hidden;
-background-repeat: no-repeat;
-margin: 0px;
+margin: auto;
 }
 
 #logo{
-width: 63%;
+width: 60%;
 justify-content: center;
+margin-bottom: 50px;
+}
+
+#linki, #linki tr, #linki td{
+width: 100%;
+table-layout: fixed;
+border-collapse: collapse;
+text-align: center;
+background-color: rgb(22, 21, 21);
+padding: 10px;
+box-shadow: 7px 3px 3px black;
+}
+
+.podlinki{
+color: #E50030;
+font-size: 30px;
+font-weight: bold;
+border-radius: 5% 20% 5% 20%;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+}
+.podlinki:hover{
+color: lime;
+background-color: rgb(0, 0, 0);
+border: 2px solid white;
+}
+
+#menu{
+font-size: 75px;
+text-decoration: underline;
+color: white;
+}
+
+#jezyk{
+  margin-bottom: 15px;
+  width: 20%;
+  height: 30px;
+background-color: rgba(0, 0, 0, 0.1);
+color: white;
+}
+#jezyk:hover{
+  background-color: white;
+color: black;
+border: 2px solid red;
+}
+
+option{
+  color: black;
+}
+
+#sklad{
+table-layout: fixed;
+border-collapse: collapse;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+margin-top: 50px;
+width: 90%;
+height: 500px;
+box-shadow: 15px 10px 10px rgba(255, 255, 255, 0.7);
+}
+.sk{
+border-collapse: collapse;
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+}
+#header-sklad{
+font-size: 50px;
+font-weight: bold;
+background-color: #5E0B15;
+}
+#nickname{
+font-size: 30px;
+background-color: white;
+color: black;
+}
+#rola{
+font-size: 30px;
+background-color: rgb(4, 1, 22);
+}
+.rola{
+background-color: rgba(0, 0, 0, 0.1);
+border-collapse: collapse;
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+color: lime;
+}
+
+.lewa{
+float: left;
+width: 70%;
+margin-bottom: 100px;
+}
+.prawa{
+float: right;
+width: 30%;
+margin-bottom: 100px;
+}
+
+#partner{
+color: white;
+font-size: 90px;
+}
+#wsparcie{
+width: 50%;
+}
+#wsparcie:hover{
+transform: scale(1.2);
+}
+#support{
+  color: white;
+  font-size: 50px;
+margin: 50px 0px 40px 0px;
+padding: 5px;
+background-color: rgb(4, 1, 22);
+}
+
+#baner{
+width:50%;
+margin-bottom: 50px;
+}
+#baner2{
+width: 20%;
+box-sizing: border-box;
+padding: 2px;
+margin-bottom: 50px;
+}
+#baner2:hover{
+  transform: scale(0.95);
+  border: 1px solid blue;
+}
+
+#wymiana{
+  color: white;
+  font-size: 35px;
+}
+
+#media{
+color: white;
+font-size: 60px;
+text-decoration: overline;
+margin-bottom: 75px;
+}
+
+img{
+width: 15%;
+text-align: center; 
+margin-bottom: 20px;
+}
+img:hover{
+transform: scale(1.1);
 }
 
 footer{
 text-align: center;
 color: white;
 font-size: 20px;
-}
-
-p{
-color: white;
-}
-
-h2{
-color: white;
-}
-
-a{
-color: #E50030;
-background-color: black;
-font-size: 25px;
-font-weight: bold;
-border-radius: 35% 10% 35% 10%;
-padding: 7px;
-text-decoration: none;
-text-align: center;
-}
-
-a:hover{
-color: lime;
-font-size: 30px;
-}
-
-h3{
-font-size: 40px;
-color: lime;
-}
-
-div{
-color: white;
-font-size: 45px;
-}
-
-#linki{
-width: 100%;
-table-layout: fixed;
-border-collapse: collapse;
-text-align: center;
-margin: auto;
-}
-
-#sklad{
-table-layout: fixed;
-border-collapse: collapse;
-border: 2px;
-color: white;
-height: 500px;
-width: 50%;
-}
-
-.layout{
-display: flex;
-gap: 70px;
-align-items: flex-start;
-}
-
-.trofy{
-table-layout: fixed;
-border-collapse: collapse;
-border: 0px;
-color: white;
-height: 450px;
-width: 50%;
-}
-
-.trof{
-padding: 25px;
-font-size: 30px
-}
-
-.win{
-color: gold;
-}
-
-.lose{
-color: red;
-}
-
-.sec{
-color: #50C878;
-}
-
-.thrd{
-color: #B87333;
-}
-
-.tur{
-color: lime;
-}
-
-.drab{
-background-color: black;
-color: lime;
-text-decoration: underline;
-}
-
-#head{
-font-size: 60px;
-font-weight: bold;
-background-color: #5E0B15;
-}
-
-.sk{
-border-collapse: collapse;
-border: 2px, solid, white;
-text-align: center;
-font-weight: bold;
-font-size: 20px;
-}
-
-#ob{
-background-color: #5E0B15;
-}
-
-#r{
-background-color: grey;
-}
-
-#g{
-background-color: grey;
-}
-
-iframe{
-margin: auto;
-display: flex;
-justify-content: center;
-width: 700px;
-height: 335px;
-border: none;
-}
-
-img{
-width: 3%;
-text-align: center; 
-}
-
-
-.out{
-background-color: #990000;
-color: white;
-font-weight: bold;
-border-radius: 10px;
-padding: 3px;
-}
-
-h1{
-font-size: 50px;
-color: white;
-}
-
-#tip{
-display: inline-block;
-width: 20%;
-font-size: 2px;
-}
-
-#tip:hover{
-color: black;
-background-color: red;
-}
-
-.wrap{
-text-align: center;
-}
-
-.nick{
-background-color: rgba(20, 20, 25, 0.9);
-border-collapse: collapse;
-border: 2px, solid, white;
-text-align: center;
-font-weight: bold;
-font-size: 20px;
-color: lime;
-}
-
-#keb{
-width: 77%;
-}
-
-#swap{
-font-size: 25px;
-}
-
-.swapp{
-color: #E50030;
-}
-
-.swappie{
-width: 20%;
 }
 
 .fade-in {
@@ -222,7 +182,7 @@ width: 20%;
 @keyframes pojawienie {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(30px);
   }
 
   to {
@@ -230,20 +190,15 @@ width: 20%;
     transform: translateY(0);
   }
 }
-#logo {
+#logo{
   animation-delay: 0s;
 }
-
-#linki {
+main{
   animation-delay: 0.3s;
 }
-
-#trofy {
-  animation-delay: 0.6s;
+#menu{
+animation-delay: 0.7s;
 }
-#sklad {
-  animation-delay: 0.6s;
-}
-#fade{
-animation-delay: 1.0s;
+#jezyk{
+  animation-delay: 1s;
 }

@@ -5,76 +5,90 @@ background-position: center;
 background-attachment: fixed;
 text-align: center;
 color: white;
+overflow-x: hidden;
+justify-content: center;
+margin: auto;
+width: 70%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.pc{
-width: 25%;
-height: 20%;
+#logo{
+  width: 90%;
+margin-bottom: 50px;
 }
-
-table, tr, td{
+#menu{
+font-size: 100px;
+text-decoration: underline;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#linki, #linki tr, #linki td{
+width: 100%;
+table-layout: fixed;
+border-collapse: collapse;
 text-align: center;
+background-color: rgb(22, 21, 21);
+padding: 10px;
+box-shadow: 7px 3px 3px rgb(0, 71, 171);
+margin: auto;
+margin-bottom: 100px;
+}
+.podlinki{color: #E50030;
+font-size: 30px;
+font-weight: bold;
+border-radius: 5% 20% 5% 20%;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+}
+.podlinki:hover{
+color: lime;
+background-color: rgb(0, 0, 0);
+border: 2px solid white;
+}
+#uslugi, #uslugi tr, #uslugi td{
+border-collapse: collapse;
+width: 100%;
 table-layout: fixed;
 margin: auto;
-width: 60%;
-font-size: 20px;
-border: 3px, solid, #0047AB;
-border-collapse: collapse;
+margin-bottom: 100px;
 }
-
-h1{
-font-size: 65px;
-font-family: Helvetica;
-color: white;
-text-align: center;
+#head-uslugi{
+  background-color: #5E0B15;
+font-size: 50px; 
+padding: 15px;
 }
-
-.logo{
-width: 50%;
+#uslugi-lewa{
+  background-color: white;
+color: black;
+  font-size: 40px;
+padding: 10px;
 }
-
-.first{
-background-color: #0047AB;
+#uslugi-prawa{
+  background-color: rgb(0, 71, 171);
+font-size: 40px;
+padding: 10px;
 }
-
-#linki{
-background-color: #0047AB;
-text-align: center;
+.uslg{
+  font-size: 25px;
+  padding: 15px;
 }
-
-h2{
-color: white;
-text-align: center;
-font-size: 41px;
+.uslg2{
+  font-size: 25px;
+  padding: 15px;
+  background-color: rgb(0, 71, 171);
 }
-
+.uslg3{
+  font-size: 25px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
 h3{
-color: LightBlue;
-text-align: center;
-font-size: 35px;
+  font-size: 40px;
+color: aqua;
 }
-
-a{
-font-size: 25px;
-color: LightBlue;
-text-decoration: none;
-}
-
-a:hover{
-color: lime;
-}
-
-#strg{
-font-size: 30px;
-color: white;
-background-color: #0047AB;
-text-decoration: none;
-border-radius: 40% 10% 40% 10%;
-}
-
-#strg:hover{
-font-size: 31px;
-color: lime;
+h2{
+  font-size: 55px;
+  font-weight: bold;
 }
 
 .fade-in {
@@ -93,20 +107,15 @@ color: lime;
     transform: translateY(0);
   }
 }
-#loga {
-  animation-delay: 0s;
-}
-
-#strg {
+#logo{
   animation-delay: 0.3s;
 }
-
-#uslugi {
+#linki{
   animation-delay: 0.6s;
 }
-#konf {
-  animation-delay: 0.6s;
+#menu{
+  animation-delay: 1s;
 }
-#fade{
-animation-delay: 1.0s;
+#uslugi{
+  animation-delay: 0.9s;
 }
