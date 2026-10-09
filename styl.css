@@ -1,3 +1,6 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
 body{
 background-image: url("tlo2.png");
 background-attachment: fixed;
@@ -16,6 +19,32 @@ justify-content: center;
 margin-bottom: 50px;
 }
 
+ul{
+  list-style-type: none;
+}
+#lang{
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+}
+.flags{
+  width: 30%;
+}
+.lang{
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #5E0B15;
+font-size: 50px;
+}
+.lang:hover{
+font-size: 51px;
+color: lime;
+}
+th{
+  color: whitesmoke;
+  font-size: 25px;
+ padding: 30px;
+}
 #linki, #linki tr, #linki td{
 width: 100%;
 table-layout: fixed;
@@ -25,7 +54,6 @@ background-color: rgb(22, 21, 21);
 padding: 10px;
 box-shadow: 7px 3px 3px black;
 }
-
 .podlinki{
 color: #E50030;
 font-size: 30px;
@@ -40,30 +68,11 @@ color: lime;
 background-color: rgb(0, 0, 0);
 border: 2px solid white;
 }
-
 #menu{
-font-size: 75px;
+font-size: 90px;
 text-decoration: underline;
 color: white;
 }
-
-#jezyk{
-  margin-bottom: 15px;
-  width: 20%;
-  height: 30px;
-background-color: rgba(0, 0, 0, 0.1);
-color: white;
-}
-#jezyk:hover{
-  background-color: white;
-color: black;
-border: 2px solid red;
-}
-
-option{
-  color: black;
-}
-
 #sklad{
 table-layout: fixed;
 border-collapse: collapse;
@@ -102,7 +111,6 @@ font-weight: bold;
 font-size: 25px;
 color: lime;
 }
-
 .lewa{
 float: left;
 width: 70%;
@@ -113,7 +121,6 @@ float: right;
 width: 30%;
 margin-bottom: 100px;
 }
-
 #partner{
 color: white;
 font-size: 90px;
@@ -131,7 +138,6 @@ margin: 50px 0px 40px 0px;
 padding: 5px;
 background-color: rgb(4, 1, 22);
 }
-
 #baner{
 width:50%;
 margin-bottom: 50px;
@@ -146,19 +152,16 @@ margin-bottom: 50px;
   transform: scale(0.95);
   border: 1px solid blue;
 }
-
 #wymiana{
   color: white;
   font-size: 35px;
 }
-
 #media{
 color: white;
 font-size: 60px;
 text-decoration: overline;
 margin-bottom: 75px;
 }
-
 img{
 width: 15%;
 text-align: center; 
@@ -167,13 +170,11 @@ margin-bottom: 20px;
 img:hover{
 transform: scale(1.1);
 }
-
 footer{
 text-align: center;
 color: white;
 font-size: 20px;
 }
-
 .fade-in {
   opacity: 0;
   animation: pojawienie 1s ease forwards;
